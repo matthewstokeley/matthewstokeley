@@ -20,7 +20,7 @@
 
         <!-- title -->
         <title>
-         Portfolio
+         this is a website.
         </title>
 
         <!-- favicon -->
@@ -31,7 +31,7 @@
         <style>
 
         	body, html {
-        		margin: 0;padding: 0;font: 12px Arial;
+        		margin: 0;padding: 0;font-size: 12px;
         	}
 
         	a {
@@ -76,16 +76,15 @@
         		padding-left: 1rem;
         	}
 
-        	.work {
-        		width: 50%;
-        		padding-left: 1rem;
-        	}
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
 
-        	@media (min-width: 768px) {
-        		.work {
-        			width: 20%;
-        		}
-        	}
+            .grid section {
+                margin: 0 1rem;
+            }
+
 
         	ul, li {
         		list-style-type: none;
@@ -122,6 +121,7 @@
 	    	</span>
 	    </header>
 
+        <div class="grid">
     	<section class="work">
 
 	    	<h4>matthewstokeley.github.io</h4>
@@ -163,6 +163,19 @@
 	    	<span class="description">Worked with the founder to develop a dashboard and build new features.</span>
 	    	<ul><li>PHP</li><li>html</li><li>css</li></ul>
 	    </section>
+
+        <section class="projects">
+            <p>I have a BA in International Studies, part of the Political Science program at the University of Central Florida, where I also studied drawing, design, anthropology and digital media</p>
+
+            <p>currently curating a <a href="http://52.90.89.185">literary and art blog</a>, just started a <a href="http://35.173.185.180">blog of notes about human rights rights and anthropology</a>, and manage a site dedicated to <a href="http://54.91.176.59">free and open resources for learning english</a>. </p>
+
+            <p>worked as a developer for years, and know javascript, php, mysql, nosql, ssh, http, api, html, css, apache, cms backwards and forwards. <a href="http://github.com/matthewstokeley">currently building software for researchers and writers</a> and am working on <a href="https://github.com/matthewstokeley/low-tech-javascript-applications">an open source book about theory and code called low-tech javascript applications</a> (hat-tip to <a href="#">low-tech magazine</a>) <a href="mailto:matthewjaestokeley@gmail.com">do you want to work together?</a></p>
+
+            <p>interested in: online education and continuing learning, making a career out of the mushy remains of a vague third worldism and situationism, chunking and cognitive load - the two worst-named concepts of all time - as they pertain to the perceptive process of design and poetry like lu shangyin and robert lax.  i keep a notebook i want to talk about :(</p>
+
+            <p><a href="https://twitter.com/matthewstokeley">twitter</a>, <a href="https://github.com/matthewstokeley">github</a>, <a href="https://www.are.na/matthew-stokeley">are.na</a>, <a href="https://www.reading.am/matthewstokeley/list">reading.am</a></p>
+        </section>
+    </div>
 
         <!-- scripts -->
         <script src=""></script>
